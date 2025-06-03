@@ -1,17 +1,31 @@
-# Aragon_EnergyPerformance
-# Eficiencia Energética en los Edificios de la C.A. de Aragón
+# Análisis de Eficiencia Energética - Aragón
 
-## Descripción
-Análisis de eficiencia energética en edificios de la Comunidad Autónoma de Aragón. Este proyecto abarca la carga y limpieza de datos, manejo de valores faltantes, procesamiento de fechas y coordenadas, análisis de correlación y visualización de resultados. Se incluyen recomendaciones para optimizar el consumo energético y reducir emisiones de CO2.
+Este proyecto analiza datos de eficiencia energética en edificios de la Comunidad Autónoma de Aragón (España), con el fin de identificar patrones que influyan en el rendimiento energético.
 
-## Objetivos
-- Cargar y explorar el conjunto de datos
-- Renombrar columnas para facilitar el análisis
-- Realizar análisis inicial y limpieza de datos
-- Manejar valores faltantes adecuadamente
-- Procesar variables de fechas y coordenadas
-- Analizar la correlación entre variables clave
-- Codificar variables categóricas
-- Visualizar datos para identificar patrones
-- Generar recomendaciones basadas en el análisis
+## 📌 Objetivo
+Explorar las características de los edificios (uso, tipo, superficie, emisiones) y su relación con el nivel de eficiencia energética registrado en sus certificaciones.
 
+## 🛠 Herramientas Utilizadas
+- Python (pandas, matplotlib, seaborn)
+- Jupyter Notebook
+- Análisis exploratorio de datos (EDA)
+- Gráficos de correlación y distribución
+
+## 📁 Estructura
+- data/: Contiene el archivo CSV con las certificaciones.
+- notebooks/: Notebook con el paso a paso del análisis.
+- output/: Visualizaciones clave generadas.
+
+## 🚀 Cómo usar
+1. Clona el repositorio.
+2. Abre el notebook con Jupyter Notebook.
+3. Ejecuta cada celda con los datos cargados.
+
+## 🧠 ¿Qué aprendí?
+- Identificar y tratar valores nulos y atípicos.
+- Cómo aplicar técnicas de limpieza de datos.
+- Importancia de la visualización para interpretar indicadores energéticos.
+- Análisis de variables categóricas y numéricas.
+
+## 📈 Resultados
+Se identificaron patrones por tipo de edificio y localización. Algunas construcciones muestran menor eficiencia en relación con su uso, lo que podría indicar oportunidades de mejora en futuras construcciones o reformas.
